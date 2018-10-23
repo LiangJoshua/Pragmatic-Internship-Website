@@ -1,0 +1,43 @@
+@charset "UTF-8";
+.menu .more:before {
+    content: '\25BC';
+    color: #777;
+    font-weight: bold;
+    float: right;
+    margin-left: 5px;
+}
+
+
+
+.menu .accordion-heading {  position: relative; }
+.menu .accordion-heading .edit {
+    position: absolute;
+    top: 8px;
+    right: 30px; 
+}
+.menu .area { 
+background-color: #dadee7;
+}
+.menu .area:hover { 
+background-color: #c8cedb;
+}
+.menu .equipamento { background-color: #dadee7;}
+.menu .equipamento:hover { 
+background-color: #c8cedb;
+}
+.menu .ponto { background-color: #dadee7; }
+.menu .ponto:hover { 
+background-color: #c8cedb;
+}
+.menu .collapse.in { overflow: visible; }
+
+
+.accordion{margin-bottom:20px;}
+.accordion-group{margin-bottom:2px;border:1px solid #e5e5e5;-webkit-border-radius:4px;-moz-border-radius:4px;border-radius:4px;}
+.accordion-heading{border-bottom:0;}
+.accordion-heading .accordion-toggle{display:block;padding:8px 15px;}
+.accordion-toggle{cursor:pointer;}
+.accordion-inner{padding:9px 15px;border-top:1px solid #e5e5e5;}
+.accordion-wrapper{
+	background-color: #eee;
+}

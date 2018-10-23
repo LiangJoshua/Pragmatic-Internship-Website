@@ -1,0 +1,46 @@
+HTTrack3.49-2 launched on Mon, 22 Oct 2018 17:08:37 at http://wireless-experts.com/index.html http://wireless-experts.com/sitemap.html +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/*
+(webhttrack -q -%i -w http://wireless-experts.com/index.html http://wireless-experts.com/sitemap.html -O "/Users/macadmin/websites/test2" -n -t -%P -p7 -N0 -s2 -p7 -D -a -K0 -c4 -%k -A25000 -F "Mozilla/4.5 (compatible; HTTrack 3.0x; Windows 98)" -%F "<!-- Mirrored from %s%s by HTTrack Website Copier/3.x [XR&CO'2014], %s -->" +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -%s -%u )
+
+Information, Warnings and Errors reported for this mirror:
+note:	the hts-log.txt file, and hts-cache folder, may contain sensitive information,
+	such as username/password authentication for websites mirrored in this project
+	do not share these files/folders if you want these information to remain private
+
+17:21:32	Error: 	"Not Found" (404) at link https://wireless-experts.com/images/pdf/tpa (from https://wireless-experts.com/Manuals, diagrams, DS.html)
+17:22:41	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): use.edgefonts.net/source-sans-pro:n2,i2,n3,i3,n4,i4,n6,i6,n7,i7,n9,i9:default;source-serif-pro:n4:default.js
+17:23:53	Error: 	"Not Found" (404) at link https://cse.google.com/cse.js?cx= (from https://wireless-experts.com/index.html)
+17:23:53	Warning: 	HTML file (14746 bytes) retransferred due to lack of cache: https://wireless-experts.com/PTS4077F.html
+17:25:01	Warning: 	HTML file (9966 bytes) retransferred due to lack of cache: https://wireless-experts.com/PIM-21B.html
+17:25:57	Warning: 	HTML file (19490 bytes) retransferred due to lack of cache: https://wireless-experts.com/phLCDTv&MP.html
+17:27:33	Warning: 	HTML file (12438 bytes) retransferred due to lack of cache: https://wireless-experts.com/government.html
+17:28:32	Warning: 	HTML file (12087 bytes) retransferred due to lack of cache: https://wireless-experts.com/education.html
+17:29:36	Warning: 	HTML file (11775 bytes) retransferred due to lack of cache: https://wireless-experts.com/healthcare.html
+17:30:54	Warning: 	HTML file (33330 bytes) retransferred due to lack of cache: https://wireless-experts.com/reseller.html
+17:33:43	Warning: 	HTML file (8997 bytes) retransferred due to lack of cache: https://wireless-experts.com/sourceComponents.html
+17:33:44	Warning: 	HTML file (9804 bytes) retransferred due to lack of cache: https://wireless-experts.com/directionalSpeakers.html
+17:33:45	Warning: 	HTML file (8501 bytes) retransferred due to lack of cache: https://wireless-experts.com/AudioSystems.html
+17:33:46	Warning: 	HTML file (8680 bytes) retransferred due to lack of cache: https://wireless-experts.com/DistributedAVEntertainmentSystems.html
+17:33:49	Warning: 	HTML file (9259 bytes) retransferred due to lack of cache: https://wireless-experts.com/Amplifiers.html
+17:33:51	Warning: 	HTML file (8872 bytes) retransferred due to lack of cache: https://wireless-experts.com/HDMI-VGA-SD-CATS.html
+17:33:53	Warning: 	HTML file (9930 bytes) retransferred due to lack of cache: https://wireless-experts.com/SecurityCameras&Devices.html
+17:33:55	Warning: 	HTML file (9234 bytes) retransferred due to lack of cache: https://wireless-experts.com/HealthCare-Hospitality-Industrial-Devices.html
+17:33:56	Warning: 	HTML file (8072 bytes) retransferred due to lack of cache: https://wireless-experts.com/Acessories&Miscellaneous.html
+17:33:59	Warning: 	HTML file (9137 bytes) retransferred due to lack of cache: https://wireless-experts.com/In-Wall.html
+17:34:01	Warning: 	HTML file (6577 bytes) retransferred due to lack of cache: https://wireless-experts.com/filler.html
+17:34:03	Warning: 	HTML file (8182 bytes) retransferred due to lack of cache: https://wireless-experts.com/pmod.html
+17:34:11	Error: 	"" (404) at link https://wireless-experts.com/images/pdf/tpa (from https://wireless-experts.com/Manuals, diagrams, DS.html)
+17:34:11	Warning: 	HTML file (14378 bytes) retransferred due to lack of cache: https://wireless-experts.com/pha-48.html
+17:34:17	Error: 	"Not Found" (404) at link https://wireless-experts.com/jQueryAssets/images/ui-bg_glass_65_ffffff_1x400.png (from https://wireless-experts.com/jQueryAssets/jquery.ui.theme.min.css)
+17:34:17	Error: 	"Not Found" (404) at link https://wireless-experts.com/jQueryAssets/images/ui-icons_222222_256x240.png (from https://wireless-experts.com/jQueryAssets/jquery.ui.theme.min.css)
+17:34:17	Error: 	"Not Found" (404) at link https://wireless-experts.com/fonts/fontawesome-webfont.eot?v=4.6.3 (from https://wireless-experts.com/css/font-awesome.min.css)
+17:34:17	Error: 	"Not Found" (404) at link https://wireless-experts.com/fonts/fontawesome-webfont.eot? (from https://wireless-experts.com/css/font-awesome.min.css)
+17:34:17	Error: 	"Not Found" (404) at link https://wireless-experts.com/fonts/fontawesome-webfont.woff2?v=4.6.3 (from https://wireless-experts.com/css/font-awesome.min.css)
+17:34:17	Error: 	"Not Found" (404) at link https://wireless-experts.com/fonts/fontawesome-webfont.woff?v=4.6.3 (from https://wireless-experts.com/css/font-awesome.min.css)
+17:34:17	Error: 	"Not Found" (404) at link https://wireless-experts.com/fonts/fontawesome-webfont.ttf?v=4.6.3 (from https://wireless-experts.com/css/font-awesome.min.css)
+17:34:17	Error: 	"Not Found" (404) at link https://wireless-experts.com/fonts/fontawesome-webfont.svg?v=4.6.3 (from https://wireless-experts.com/css/font-awesome.min.css)
+17:34:17	Error: 	"Not Found" (404) at link https://wireless-experts.com/ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/ (from https://connect.facebook.net/en_US/sdk.js)
+17:34:17	Error: 	"Not Found" (404) at link https://wireless-experts.com/^([^:/? (from https://connect.facebook.net/en_US/sdk.js)
+17:34:17	Error: 	"Not Found" (404) at link https://wireless-experts.com/restserver.php (from https://connect.facebook.net/en_US/sdk.js)
+
+HTTrack Website Copier/3.49-2 mirror complete in 25 minutes 40 seconds : 587 links scanned, 594 files written (182683093 bytes overall) [181214317 bytes received at 117671 bytes/sec], 2855814 bytes transferred using HTTP compression in 158 files, ratio 30%, 2.1 requests per connection
+(14 errors, 21 warnings, 0 messages)
